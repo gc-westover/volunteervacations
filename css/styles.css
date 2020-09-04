@@ -39,3 +39,23 @@ nav ul li a {
 nav ul li a:hover {
   color: plum;
 }
+
+#footer-content h6,
+#footer-content ul {
+  padding: 0;
+  margin: 0;
+}
+
+#footer-content {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+
+#footer-content ul li {
+  list-style: none;
+}
+
+.copy {
+  text-align: center;
+}
