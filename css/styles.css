@@ -24,8 +24,8 @@ nav ul {
 
   margin: 0;
   padding: 0;
-  background-color: plum;
-  color: purple;
+  background-color: #c77dff;
+  color: #240046;
 }
 
 nav ul li {
@@ -37,8 +37,8 @@ nav ul li {
 }
 
 nav ul li:hover {
-  background-color: purple;
-  color: plum;
+  background-color: #240046;
+  color: #c77dff;
 }
 
 nav ul li a {
@@ -49,11 +49,20 @@ nav ul li a {
   color: inherit;
 }
 
-/* nav ul li a:hover {
-  color: plum;
-} */
+footer {
+  background-color: #3c096c;
+  color: #e5c1fa;
+}
 
-#footer-content h6,
+footer a {
+  color: #64dfdf;
+  text-decoration: none;
+}
+
+#footer-content h3 {
+  padding: 3px;
+}
+
 #footer-content ul {
   padding: 0;
   margin: 0;
@@ -61,7 +70,7 @@ nav ul li a {
 
 #footer-content {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   text-align: center;
 }
 
@@ -69,6 +78,26 @@ nav ul li a {
   list-style: none;
 }
 
+.footer-div {
+  width: 300px;
+}
+
+.social .icon {
+  font-size: 2em;
+  padding: 5px;
+}
+
+.social ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.social ul li {
+  padding: 5px;
+}
+
 .copy {
   text-align: center;
+  color: #80ffdb;
 }
