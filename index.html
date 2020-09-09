@@ -15,6 +15,12 @@
       integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
       crossorigin="anonymous"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.3/tiny-slider.css"
+      integrity="sha512-eMxdaSf5XW3ZW1wZCrWItO2jZ7A9FhuZfjVdztr7ZsKNOmt6TUMTQgfpNoVRyfPE5S9BC0A4suXzsGSrAOWcoQ=="
+      crossorigin="anonymous"
+    />
     <title>Volunteer Vacations</title>
   </head>
   <body>
@@ -29,6 +35,33 @@
     <header>
       <h1>Volunteer Vacations slack b4 commit</h1>
       <h2>*Mission Statement*</h2>
+
+      <div id="start-index">
+        <img
+          src="https://images.unsplash.com/photo-1593113598332-cd288d649433?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80"
+          alt="image of unloading food palettes"
+        />
+
+        <img
+          src="https://images.unsplash.com/photo-1522600579804-c66aa476298e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1049&q=80"
+          alt="image of painting fence"
+        />
+
+        <img
+          src="https://images.unsplash.com/photo-1587582423116-ec07293f0395?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80"
+          alt="image of building house"
+        />
+
+        <img
+          src="https://images.unsplash.com/photo-1590105577767-e21a1067899f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1100&q=80"
+          alt="image of nurses holding up hearts"
+        />
+
+        <img
+          src="https://images.unsplash.com/photo-1565803974275-dccd2f933cbb?ixlib=rb-1.2.1&auto=format&fit=crop&w=1051&q=80"
+          alt="image of cleaning beach"
+        />
+      </div>
     </header>
     <main>
       <div class="main-area">
@@ -115,5 +148,19 @@
       </div>
       <div class="copy">&copy; 2020</div>
     </footer>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.3/min/tiny-slider.js"
+      integrity="sha512-D/zaRVk05q6ERt1JgWB49kL6tyerY7a94egaVv6ObiGcw3OCEv0tvoPDEsVqL28HyAZhDd483ix8gkWQGDgEKw=="
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      var slider = tns({
+        container: "#start-index",
+        items: 1,
+        slideBy: "page",
+        autoplay: true,
+        autoplayTimeout: 4000,
+      });
+    </script>
   </body>
 </html>

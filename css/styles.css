@@ -17,6 +17,26 @@ header {
   padding: 10px;
 }
 
+.tns-outer {
+  /* display: flex;
+  justify-content: center; */
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+header .img-wrapper img {
+  max-width: 100%;
+  display: block;
+}
+
+.tns-controls,
+.tns-nav,
+button[data-action="stop"],
+button[data-action="start"] {
+  display: none;
+}
+
 nav ul {
   display: flex;
   flex-flow: column nowrap;
