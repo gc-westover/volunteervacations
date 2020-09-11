@@ -5,8 +5,4 @@
   nav ul {
     flex-flow: row nowrap;
   }
-
-  header {
-    height: 100vh;
-  }
 }
