@@ -14,6 +14,9 @@ body {
 
 header {
   position: relative;
+
+  margin: 0;
+  padding: 0;
 }
 
 header h2 {
@@ -23,14 +26,13 @@ header h2 {
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 1;
-  font-size: 1.5em;
+  font-size: 1em;
   color: white;
   text-shadow: 10px 5px 10px #72efdd;
 }
 
 #slider {
   max-width: 70%;
-
   z-index: 0;
 }
 
@@ -77,13 +79,18 @@ button[data-action="start"] {
 }
 
 .main-area #description {
-  padding-top: 20px;
+  padding: 20px;
   font-size: 1.1em;
 }
 
-.main-area #description ul li {
-  margin-bottom: 10%;
-  line-height: 100%;
+.main-area #description ul {
+  margin: 0;
+  padding: 0;
+}
+
+.main-area #description li {
+  margin: 0 auto;
+  padding: 10px;
 }
 
 nav ul {
@@ -111,7 +118,7 @@ nav ul li:hover {
 nav ul li a {
   display: block;
 
-  padding: 10px;
+  padding: 15px;
   text-decoration: none;
   color: inherit;
 }
@@ -127,7 +134,8 @@ footer a {
 }
 
 #footer-content h3 {
-  padding: 3px;
+  margin: 0;
+  padding: 10px;
 }
 
 #footer-content ul {
@@ -142,6 +150,7 @@ footer a {
 
   text-align: center;
   margin: 0 auto;
+  padding: 10px;
 }
 
 #footer-content ul li {
@@ -168,6 +177,7 @@ footer a {
 }
 
 .copy {
+  padding: 10px;
   text-align: center;
   color: #80ffdb;
 }

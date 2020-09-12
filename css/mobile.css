@@ -1,4 +1,4 @@
-@media screen and (min-width: 280px) {
+@media screen and (min-width: 320px) {
 }
 
 @media screen and (min-width: 580px) {
@@ -24,7 +24,13 @@
   }
 }
 
-@media screen and (min-width: 890px) {
+@media screen and (min-width: 780px) {
+  header h2 {
+    font-size: 2.5em;
+  }
+}
+
+@media screen and (min-width: 915px) {
   header h2 {
     font-size: 3em;
   }
