@@ -187,6 +187,19 @@ footer a {
   background-color: #ffffff;
   font-family: "Comfortaa", sans-serif;
 }
+#takeActionHeader {
+  margin: 60px auto;
+  padding: 20px;
+  width: 90%;
+  background-color: #ebecfe;
+  border-radius: 8px;
+  text-align: center;
+}
+#takeActionHeader h1,
+#takeActionHeader h3 {
+  margin: 0;
+  padding: 2px;
+}
 #takeActionSlider {
   background-color: #ebecfe;
 }
