@@ -181,3 +181,223 @@ footer a {
   text-align: center;
   color: #80ffdb;
 }
+
+#takeActionBody {
+  margin: 0;
+  background-color: #ffffff;
+  font-family: "Comfortaa", sans-serif;
+}
+#takeActionSlider {
+  background-color: #ebecfe;
+}
+#takeActionSlider div {
+  margin: 0;
+  padding: 20px 0;
+}
+#takeActionSlider img {
+  width: 100%;
+}
+#takeActionSlider a {
+  text-decoration: none;
+  color: #6930c3;
+}
+#takeActionSlider a:hover {
+  color: #240046;
+}
+#takeActionSlider h4,
+#takeActionSlider h5 {
+  margin: 0;
+  padding-top: 5px;
+  width: 100%;
+}
+#takeActionSlider-ow .tns-controls {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+#takeActionSlider-ow .tns-controls button {
+  margin: 10px;
+  padding: 10px;
+  width: 100px;
+  background-color: #6930c3;
+  color: #fff;
+  border: none;
+  font-family: "Comfortaa", sans-serif;
+  font-size: 18px;
+  text-align: center;
+}
+#takeActionSlider-ow .tns-controls button:hover {
+  background-color: #240046;
+}
+#takeActionSlider-ow .tns-nav {
+  display: none;
+}
+#takeActionMain {
+  margin: 0 auto;
+  width: 90%;
+}
+#takeActionMain .callToAction {
+  margin: 60px auto 20px auto;
+  padding: 20px;
+  width: 100%;
+  background-color: #ebecfe;
+  border-radius: 8px;
+  text-align: center;
+  font-size: 1.2em;
+}
+#takeActionMain .callToAction h4,
+#takeActionMain .callToAction h5 {
+  margin: 0;
+  padding: 2px;
+}
+.donate {
+  margin: 20px auto;
+  padding: 20px;
+  max-width: 550px;
+  height: 100%;
+  background-color: #ebecfe;
+  border-radius: 8px;
+  font-family: "Comfortaa", sans-serif;
+}
+.donate h1 {
+  margin: 0;
+  padding-bottom: 20px;
+  text-align: center;
+}
+.donate .img-wrapper {
+  width: 100%;
+}
+.donate .img-wrapper img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.donate fieldset {
+  border: none;
+}
+.donate legend {
+  margin: 0;
+  padding: 20px 0;
+  font-size: 1.4em;
+}
+.donate label {
+  margin: 0;
+  padding-bottom: 8px;
+  display: block;
+}
+.donate input[type="text"],
+.donate input[type="email"],
+.donate input[type="tel"],
+.donate input[type="number"],
+.donate select {
+  margin-bottom: 30px;
+  padding: 10px;
+  width: 100%;
+  height: 45px;
+  background-color: #d8dafd;
+  color: #838e95;
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.03) inset;
+  border: none;
+  border-radius: 4px;
+  font-size: 15px;
+  font-family: "Comfortaa", sans-serif;
+}
+.donate input[type="text"]:focus,
+.donate input[type="email"]:focus,
+.donate input[type="tel"]:focus,
+.donate input[type="number"]:focus,
+.donate select:focus {
+  background-color: #c5c8fc;
+}
+.donate .number {
+  margin-right: 4px;
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background-color: #6930c3;
+  color: #fff;
+  border-radius: 15px 15px 15px 0px;
+  font-size: 0.8em;
+  text-align: center;
+  line-height: 32px;
+}
+.donate input[type="submit"] {
+  position: relative;
+  margin: 0 auto;
+  padding: 20px 0;
+  display: block;
+  width: 100%;
+  background-color: #6930c3;
+  color: #fff;
+  border: none;
+  font-size: 18px;
+  text-align: center;
+}
+.donate input[type="submit"]:hover {
+  background: #240046;
+}
+.host {
+  margin: 20px auto;
+  padding: 20px;
+  max-width: 550px;
+  height: 100%;
+  background-color: #ebecfe;
+  border-radius: 8px;
+  font-family: "Comfortaa", sans-serif;
+}
+.host h1 {
+  margin: 0;
+  padding-bottom: 20px;
+  text-align: center;
+}
+.host .img-wrapper {
+  padding-bottom: 20px;
+  width: 100%;
+}
+.host .img-wrapper img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.host fieldset {
+  border: none;
+}
+.host input[type="text"],
+.host input[type="email"],
+.host input[type="tel"],
+.host input[type="number"],
+.host select {
+  margin-bottom: 30px;
+  padding: 10px;
+  width: 100%;
+  height: 45px;
+  background-color: #d8dafd;
+  color: #838e95;
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.03) inset;
+  border: none;
+  border-radius: 4px;
+  font-size: 15px;
+  font-family: "Comfortaa", sans-serif;
+}
+.host input[type="text"]:focus,
+.host input[type="email"]:focus,
+.host input[type="tel"]:focus,
+.host input[type="number"]:focus,
+.host select:focus {
+  background-color: #c5c8fc;
+}
+.host input[type="submit"] {
+  position: relative;
+  margin: 0 auto;
+  padding: 20px 0;
+  display: block;
+  width: 100%;
+  background-color: #6930c3;
+  color: #fff;
+  border: none;
+  font-size: 18px;
+  text-align: center;
+}
+.host input[type="submit"]:hover {
+  background-color: #240046;
+}
