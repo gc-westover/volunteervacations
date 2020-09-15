@@ -401,3 +401,26 @@ footer a {
 .host input[type="submit"]:hover {
   background-color: #240046;
 }
+
+.partners-main a {
+  text-decoration: none;
+  color: navy;
+}
+
+.partners-main #bigQuiz {
+  text-align: center;
+}
+.partners-main #quiz {
+  display: flex;
+  border: 2px solid black;
+  padding: 5px;
+  margin: 50px;
+}
+
+.partners-main #quiz .choice {
+  border-right: 2px solid black;
+}
+
+.partners-main ul li {
+  list-style: none;
+}
