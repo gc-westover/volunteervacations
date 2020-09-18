@@ -535,11 +535,16 @@ footer a:hover {
 .partners-main #states {
   text-align: center;
   margin-bottom: 100px;
+  margin-top: 50px;
 }
 
 .partners-main #states ul li {
   list-style: none;
   margin-right: 46px;
+}
+
+.partners-main #states ul li a:hover {
+  color: #c77dff;
 }
 
 .partners-main #states li .icon {
