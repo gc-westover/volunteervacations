@@ -420,6 +420,7 @@ footer a:hover {
   border: none;
   font-size: 18px;
   text-align: center;
+  font-family: "Comfortaa", sans-serif;
 }
 .donate input[type="submit"]:hover {
   background: #240046;
@@ -485,6 +486,7 @@ footer a:hover {
   border: none;
   font-size: 18px;
   text-align: center;
+  font-family: "Comfortaa", sans-serif;
 }
 .host input[type="submit"]:hover {
   background-color: #240046;
@@ -627,7 +629,7 @@ footer a:hover {
   letter-spacing: 2px;
 }
 
-input {
+.contact-section input {
   padding: 10px;
   margin: 10px;
   width: 70%;
@@ -637,11 +639,11 @@ input {
   outline: none;
 }
 
-input::placeholder {
+.contact-section input::placeholder {
   color: white;
 }
 
-textarea {
+.contact-section textarea {
   padding: 10px;
   margin: 10px;
   width: 70%;
@@ -651,11 +653,11 @@ textarea {
   outline: none;
 }
 
-text::placeholder {
+.contact-section text::placeholder {
   color: white;
 }
 
-.submit {
+.contact-section .submit {
   width: 40%;
   background: none;
   padding: 4px;
@@ -672,7 +674,7 @@ text::placeholder {
   color: rgb(190, 190, 190);
 }
 
-.submit:hover {
+.contact-section .submit:hover {
   border: 1px solid #fff;
   color: #fff;
   cursor: pointer;
