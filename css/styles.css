@@ -515,25 +515,33 @@ footer a:hover {
   margin: 50px;
 }
 
+.partners-main #quiz .img img {
+  width: 100%;
+  height: 100%;
+}
+
 .partners-main #quiz .choice {
   padding-right: 5px;
   padding-left: 5px;
 }
 
-.partners-main #quiz .six {
-  border-right: none;
+.partners-main h1,
+.partners-main h3,
+.partners-main h4 {
+  color: #24003d;
 }
-
 .partners-main #states {
   text-align: center;
+  margin-bottom: 100px;
 }
 
 .partners-main #states ul li {
   list-style: none;
+  margin-right: 46px;
 }
 
 .partners-main #states li .icon {
-  color: #3c096c;
+  color: #3f007a;
   padding: 5px;
 }
 
